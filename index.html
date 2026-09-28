@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#7a4058">
-<title>Beautres — Your beauty, better matched</title>
+<title>Whip Beauty — Your personal skincare & makeup guide.</title>
 <link rel="manifest" href="manifest.json">
 <style>
 :root{
@@ -223,7 +223,7 @@ select{width:100%;border:1px solid var(--line);border-radius:14px;padding:14px;b
 <body>
 <main class="shell">
 <header class="topbar">
-  <div class="brand"><div class="logo">B</div><div>Beautres<small>Your beauty, better matched</small></div></div>
+  <div class="brand"><div class="logo">W</div><div>Whip Beauty<small>Your personal skincare & makeup guide.</small></div></div>
   <button class="ghost" id="resetTop">Start over</button>
 </header>
 
@@ -231,7 +231,7 @@ select{width:100%;border:1px solid var(--line);border-radius:14px;padding:14px;b
   <div class="copy">
     <div class="kicker">Personal beauty shopping</div>
     <h1>Build a routine you’ll actually use.</h1>
-    <p>Beautres helps you choose exactly what you want help with — skincare, eye care, face makeup, eye makeup, brows, lips or a full routine — then shows several matched choices instead of one “perfect” product.</p>
+    <p>Whip Beauty helps you choose exactly what you want help with — skincare, eye care, face makeup, eye makeup, brows, lips or a full routine — then shows several matched choices instead of one “perfect” product.</p>
     <div class="actions">
       <button class="btn primary" id="startBtn">Build my beauty match →</button>
       <button class="btn secondary" id="loadBtn">Open saved results</button>
@@ -248,7 +248,7 @@ select{width:100%;border:1px solid var(--line);border-radius:14px;padding:14px;b
       <div><span>Budget</span><span>Live selected total</span></div>
       <div><span>Save</span><span>Email / text / download</span></div>
     </div>
-    <div class="hero-tip">Beautres should help you compare, swap and save — not force you into three products.</div>
+    <div class="hero-tip">Whip Beauty should help you compare, swap and save — not force you into three products.</div>
   </aside>
 </section>
 
@@ -259,7 +259,7 @@ select{width:100%;border:1px solid var(--line);border-radius:14px;padding:14px;b
   <form id="beautyForm">
     <section class="step active" data-step="1">
       <h2>What are you looking for?</h2>
-      <p class="lead">Start broad, then pick only the areas you care about. Beautres will hide the rest.</p>
+      <p class="lead">Start broad, then pick only the areas you care about. Whip Beauty will hide the rest.</p>
 
       <div class="question">
         <div class="qtitle">Choose one</div>
@@ -273,11 +273,11 @@ select{width:100%;border:1px solid var(--line);border-radius:14px;padding:14px;b
 
       <div class="question hidden" id="focusQuestion">
         <div class="qtitle">What parts are you interested in?</div>
-        <div class="definition">Choose as many as you want. “Full routine/look” is easiest if you want Beautres to decide the steps.</div>
+        <div class="definition">Choose as many as you want. “Full routine/look” is easiest if you want Whip Beauty to decide the steps.</div>
         <div class="focus-panels">
           <div class="focus-panel hidden" id="skinFocus">
             <h4>Skincare</h4>
-            <p class="hint">Choose specific steps, eye care, or let Beautres build the whole routine.</p>
+            <p class="hint">Choose specific steps, eye care, or let Whip Beauty build the whole routine.</p>
             <div class="options">
               <div class="choice"><input type="checkbox" name="skinFocus" id="sf0" value="full"><label for="sf0">Full skincare routine</label></div>
               <div class="choice"><input type="checkbox" name="skinFocus" id="sf1" value="eye-care"><label for="sf1">Eye cream / under-eye care</label></div>
@@ -324,7 +324,7 @@ select{width:100%;border:1px solid var(--line);border-radius:14px;padding:14px;b
 
     <section class="step" data-step="2">
       <h2>How does your skin behave?</h2>
-      <p class="lead">You do not need to know your skin type. These questions help Beautres estimate it.</p>
+      <p class="lead">You do not need to know your skin type. These questions help Whip Beauty estimate it.</p>
 
       <div class="question">
         <div class="qtitle">About 20 minutes after cleansing, your skin usually feels…</div>
@@ -369,7 +369,7 @@ select{width:100%;border:1px solid var(--line);border-radius:14px;padding:14px;b
 
     <section class="step" data-step="3">
       <h2>Your complexion.</h2>
-      <p class="lead">Beautres uses this for makeup color direction, but exact foundation shades should still be checked on the brand’s current shade guide.</p>
+      <p class="lead">Whip Beauty uses this for makeup color direction, but exact foundation shades should still be checked on the brand’s current shade guide.</p>
 
       <div class="question">
         <div class="qtitle">Skin tone</div>
@@ -396,7 +396,7 @@ select{width:100%;border:1px solid var(--line);border-radius:14px;padding:14px;b
           <div class="choice"><input type="radio" name="undertone" id="u5" value="unsure"><label for="u5">Not sure</label></div>
         </div>
       </div>
-      <div class="tip"><strong>Tip:</strong> “Not sure” is better than guessing. Beautres should never pretend an online quiz guarantees your exact shade.</div>
+      <div class="tip"><strong>Tip:</strong> “Not sure” is better than guessing. Whip Beauty should never pretend an online quiz guarantees your exact shade.</div>
     </section>
 
     <section class="step" data-step="4">
@@ -426,7 +426,7 @@ select{width:100%;border:1px solid var(--line);border-radius:14px;padding:14px;b
 
     <section class="step" data-step="5">
       <h2>Set your shopping limit.</h2>
-      <p class="lead">This is the maximum Beautres will aim for with your initially selected products.</p>
+      <p class="lead">This is the maximum Whip Beauty will aim for with your initially selected products.</p>
       <div class="question">
         <div class="qtitle">Total budget</div>
         <select name="budget" required>
@@ -454,7 +454,7 @@ select{width:100%;border:1px solid var(--line);border-radius:14px;padding:14px;b
 <section class="panel hidden" id="results">
   <div class="results-head">
     <div>
-      <div class="kicker">Your Beautres Edit</div>
+      <div class="kicker">Your Whip Beauty Edit</div>
       <h2>Choose your favorites.</h2>
       <div class="profile" id="profileLine"></div>
     </div>
@@ -472,9 +472,9 @@ select{width:100%;border:1px solid var(--line);border-radius:14px;padding:14px;b
 
   <section class="save-box">
     <h3>Keep your results</h3>
-    <p>Choose what is easiest. Email and text open your own device apps; Beautres does not need to collect your email address or phone number for this prototype.</p>
+    <p>Choose what is easiest. Email and text open your own device apps; Whip Beauty does not need to collect your email address or phone number for this prototype.</p>
     <div class="save-grid">
-      <button class="save-btn primarysave" id="saveLocal">Save in Beautres</button>
+      <button class="save-btn primarysave" id="saveLocal">Save in Whip Beauty</button>
       <button class="save-btn" id="emailBtn">Email my results</button>
       <button class="save-btn" id="textBtn">Text my results</button>
       <button class="save-btn" id="shareBtn">Share results</button>
@@ -485,7 +485,7 @@ select{width:100%;border:1px solid var(--line);border-radius:14px;padding:14px;b
   </section>
 
   <div class="disclaimer">
-    Prototype shopping guidance only. Prices and availability can change after the September 7, 2026 checks. Product photos are shown for recognition; packaging can change and some prototype images are sourced from public product listings. Review current ingredient lists and exact shade information on the retailer or brand page before purchase. Beautres does not diagnose or treat skin conditions. Shopping links are limited to approved retailer/brand domains and can be monitored for breakage when the site is hosted.
+    Prototype shopping guidance only. Prices and availability can change after the September 7, 2026 checks. Product photos are shown for recognition; packaging can change and some prototype images are sourced from public product listings. Review current ingredient lists and exact shade information on the retailer or brand page before purchase. Whip Beauty does not diagnose or treat skin conditions. Shopping links are limited to approved retailer/brand domains and can be monitored for breakage when the site is hosted.
   </div>
 </section>
 </main>
@@ -1923,8 +1923,8 @@ function renderResults(p){
     document.getElementById("profileLine").textContent = "Your answers were saved, but the product catalog did not load.";
     document.getElementById("totalPrice").textContent = "$0.00";
     document.getElementById("budgetMsg").textContent = "";
-    document.getElementById("routineGuide").innerHTML = `<strong>Products could not load</strong><p>Please reopen the full Beautres file or refresh the hosted site. Your quiz is not the problem.</p>`;
-    document.getElementById("categoryResults").innerHTML = `<div class="tip"><strong>Catalog loading error:</strong> Beautres could not access its product list. This version now reports the error instead of showing an unexplained empty page.</div>`;
+    document.getElementById("routineGuide").innerHTML = `<strong>Products could not load</strong><p>Please reopen the full Whip Beauty file or refresh the hosted site. Your quiz is not the problem.</p>`;
+    document.getElementById("categoryResults").innerHTML = `<div class="tip"><strong>Catalog loading error:</strong> Whip Beauty could not access its product list. This version now reports the error instead of showing an unexplained empty page.</div>`;
     window.scrollTo({top:0,behavior:"smooth"});
     return;
   }
@@ -1953,7 +1953,7 @@ function resultsText(){
   if(!currentProfile)return "";
   const p=currentProfile;
   const list=selectedProducts().map(x=>`${x.category}: ${x.brand} ${x.name} — $${x.price.toFixed(2)} — ${x.url}`);
-  return `My Beautres Edit
+  return `My Whip Beauty Edit
 Routine: ${cap(p.routineTime)} / ${cap(p.routineSize)}
 Skin: ${cap(p.skinType)}
 Complexion: ${cap(p.tone)} / ${cap(p.undertone)}
@@ -2028,11 +2028,11 @@ document.addEventListener("click",e=>{
 document.getElementById("saveLocal").onclick=()=>{
   localStorage.setItem("beautresProfileV3",JSON.stringify(currentProfile));
   localStorage.setItem("beautresSelectionsV3",JSON.stringify(selectedByCategory));
-  document.getElementById("resultMsg").textContent="Saved in Beautres on this device.";
+  document.getElementById("resultMsg").textContent="Saved in Whip Beauty on this device.";
 };
 document.getElementById("loadBtn").onclick=()=>{
   const raw=localStorage.getItem("beautresProfileV3");
-  if(!raw){document.getElementById("homeMsg").textContent="No saved Beautres results yet.";return}
+  if(!raw){document.getElementById("homeMsg").textContent="No saved Whip Beauty results yet.";return}
   const p=JSON.parse(raw);applyProfile(p);updateFocusUI();renderResults(p);
   try{
     const saved=JSON.parse(localStorage.getItem("beautresSelectionsV3")||"{}");
@@ -2041,7 +2041,7 @@ document.getElementById("loadBtn").onclick=()=>{
   }catch(e){}
 };
 document.getElementById("emailBtn").onclick=()=>{
-  const subject=encodeURIComponent("My Beautres beauty routine");
+  const subject=encodeURIComponent("My Whip Beauty beauty routine");
   const body=encodeURIComponent(resultsText());
   location.href=`mailto:?subject=${subject}&body=${body}`;
 };
@@ -2051,7 +2051,7 @@ document.getElementById("textBtn").onclick=()=>{
 };
 document.getElementById("shareBtn").onclick=async()=>{
   if(navigator.share){
-    try{await navigator.share({title:"My Beautres Edit",text:resultsText()})}
+    try{await navigator.share({title:"My Whip Beauty Edit",text:resultsText()})}
     catch(e){}
   }else{
     try{await navigator.clipboard.writeText(resultsText());document.getElementById("resultMsg").textContent="Sharing isn't available here, so the list was copied instead."}
@@ -2061,7 +2061,7 @@ document.getElementById("shareBtn").onclick=async()=>{
 document.getElementById("downloadBtn").onclick=()=>{
   const blob=new Blob([resultsText()],{type:"text/plain"});
   const url=URL.createObjectURL(blob);
-  const a=document.createElement("a");a.href=url;a.download="my-beautres-routine.txt";a.click();
+  const a=document.createElement("a");a.href=url;a.download="my-whip-beauty-routine.txt";a.click();
   setTimeout(()=>URL.revokeObjectURL(url),1000);
   document.getElementById("resultMsg").textContent="Routine downloaded.";
 };
